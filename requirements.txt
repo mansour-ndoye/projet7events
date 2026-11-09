@@ -1,0 +1,16 @@
+faiss-cpu
+langchain
+langchain-community
+langchain-huggingface
+mistralai
+sentence-transformers
+huggingface-hub
+fastapi
+langchain-mistralai
+uvicorn
+python-dotenv
+requests
+pandas
+numpy
+pytest
+httpx
