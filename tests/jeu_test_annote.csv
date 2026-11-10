@@ -1,21 +1,144 @@
 ﻿test_id,category,question,expected_event_titles,expected_event_uids,expected_answer_criteria,actual_answer,retrieved_event_titles,relevance_score,faithfulness_score,comments
-T01,Géographie,Quels événements sont proposés à Tours ?,Le Destin,83779113,Retrouver un événement situé à Tours et restituer son titre.,,,,,
-T02,Géographie,Quels événements sont proposés à Chinon ?,Découverte des Métiers de l'Autonomie : Un Parcours Immersif,12423137,Retrouver un événement situé à Chinon et restituer son titre.,,,,,
-T03,Géographie,Quels événements sont proposés à Amboise ?,Devenez Assistant(e) de vie aux familles,77629062,Retrouver un événement situé à Amboise et restituer son titre.,,,,,
-T04,Géographie,Quels événements sont proposés à Joué-lès-Tours ?,recrutement Mécanicien Monteur et Electricien Industriel à SORIGNY,63387917,Retrouver un événement situé à Joué-lès-Tours et restituer son titre.,,,,,
-T05,Géographie,Quels événements sont proposés à Loches ?,Visite libre de l'église et de la galerie Saint-Antoine,52042025,Retrouver un événement situé à Loches et restituer son titre.,,,,,
-T06,Géographie,Quels événements sont proposés à Château-Renault ?,Exposition galerie André Bauchant,89892559,Retrouver un événement situé à Château-Renault et restituer son titre.,,,,,
-T07,Thématique,Quels événements concernent l'emploi ?,Votre avenir roule avec Chouteau Pneus : Tout savoir sur la formation recrutement le 18 septembre à Joué les Tours,30896436,Identifier un événement associé au thème : emploi.,,,,,
-T08,Thématique,Quels événements proposent du recrutement ?,recrutement Mécanicien Monteur et Electricien Industriel à SORIGNY,63387917,Identifier un événement associé au thème : recrutement.,,,,,
-T09,Thématique,Quels événements concernent la formation ?,Venez découvrir la formation BP Forestier !,72731567,Identifier un événement associé au thème : formation.,,,,,
-T10,Thématique,Cite un concert musical propos? dans les ?v?nements.,"Concert jazz-pop avec Delphine Maillard à la Grange tourangelle, 5 juin",62152172,Identifier un v?ritable concert et restituer son titre.,,,,,
-T11,Thématique,Quels événements permettent de découvrir le patrimoine ?,Découverte de l'Atelier Calder,54126240,Identifier un événement associé au thème : patrimoine.,,,,,
-T12,Thématique,Quelles expositions sont proposées ?,"Sur les pas de Jeanne d'Arc, Exposition d'aquarelles et dessins de JEAN CHEN",9525624,Identifier un événement associé au thème : exposition.,,,,,
-T13,Thématique,Quelles visites peut-on découvrir ?,En route vers les métiers du transport urbain lors de la visite du technicentre Keolis Tours,17470635,Identifier un événement associé au thème : visite.,,,,,
-T14,Thématique,Quels événements sont adaptés aux jeunes enfants ?,Trois petits pas,98789245,Identifier un événement associé au thème : famille.,,,,,
-T15,Date,Quels événements sont prévus en décembre 2026 ?,"Exposition - Stanley Greene, le parti de la révolte",12832092,Retrouver un événement daté de décembre 2026 et donner sa date.,,,,,
-T16,Date,Quels événements sont prévus en janvier 2027 ?,Le grand bal des animaux,2358242,Retrouver un événement daté de janvier 2027 et donner sa date.,,,,,
-T17,Date,Quels événements sont prévus en juillet 2027 ?,"Seule en scène avec Mantine à la Grange tourangelle, 3 juillet",58238330,Retrouver un événement daté de juillet 2027 et donner sa date.,,,,,
-T18,Recherche combinée,Quels événements musicaux sont organisés à Joué-lès-Tours ?,Découverte de la Scène de Musiques Actuelles Le Temps Machine,86137729,Trouver un événement musical dans la ville demandée.,,,,,
-T19,Recherche combinée,Quels événements liés à l'emploi sont organisés à Chinon ?,Atelier Emploi Retraite,36826885,Trouver un événement lié à l'emploi à Chinon.,,,,,
-T20,Absence de r?sultat,Y a-t-il une comp?tition de fus?es intergalactiques ? Tours ?,,,Le chatbot doit indiquer qu'aucun ?v?nement correspondant n'est pr?sent dans les donn?es et ne rien inventer.,,,,,
+T01,Géographie,Quels événements sont proposés à Tours ?,Le Destin,83779113.0,Retrouver un événement situé à Tours et restituer son titre.,"Voici les événements culturels disponibles à **Tours** pour le **19 septembre 2026** :
+
+1. **Cocotte-défi** – *Huit défis à réaliser pendant votre visite libre*
+   **Date** : 19/09 (08h–10h30)
+   **Lieu** : 8 Rue Nationale, 37000 Tours
+
+2. **Visite guidée de l'orgue historique**
+   **Date** : 19/09 (13h–16h)
+   **Lieu** : Place Paul Bert, 37100 Tours
+
+3. **Visite du temple protestant**
+   **Date** : 19/09 (11h–16h)
+   **Lieu** : 32 Rue de la Préfecture, 37000 Tours
+
+4. **Visite de l’atelier de reliure**
+   **Date** : 20/09 (12h30–15h30)
+   **Lieu** : 2bis Avenue André Malraux, 37000 Tours
+
+5. **Visite guidée de l’ancienne imprimerie MAME**
+   **Date** : 19/09 (08h–09h)
+   **Lieu** : 40 rue du Docteur Cha",Cocotte-défi : huit défis à réaliser pendant votre visite libre ; Visite guidée de l'orgue historique ; Passé instantané : le temps de la photographie ; Visites guidées & Jeu de Piste en Gare de Tours ; Visite du temple protestant de Tours ; Petits-fils Tours Nord recrute des Assistante de vie ; Visite de l'atelier de reliure ; Visite sensorielle et narrative des œuvres d'art contemporain ; Visite guidée de l’ancienne imprimerie MAME ; Visites guidées - les expositions du moment,2.0,1.0,Réponse pertinente pour Tours ; événements cohérents avec les sources ; réponse tronquée.
+T02,Géographie,Quels événements sont proposés à Chinon ?,Découverte des Métiers de l'Autonomie : Un Parcours Immersif,12423137.0,Retrouver un événement situé à Chinon et restituer son titre.,"Voici les événements disponibles à Chinon pour septembre 2026 :
+
+- **Visite libre de la forteresse royale de Chinon**
+  *Date* : 19/09 de 07h30 à 16h00
+  *Lieu* : 4 Rue du Château, 37500 Chinon
+
+- **Observatoire du Chinonais**
+  *Date* : 19/09 de 14h à 18h
+  *Lieu* : Les Hauts-de-l'Olive, 37500 Chinon
+
+- **Sur les pas de Rabelais**
+  *Date* : 20/09 de 15h30 à 17h00
+  *Lieu* : 1 rue Rabelais, 37500 Chinon
+
+- **Initiation à la pratique de la boule de Fort**
+  *Date* : 19/09 de 07h à 17h
+  *Lieu* : 19 avenue François-Mitterrand, 37500 Chinon
+
+- **Sur les pas de Jeanne d’Arc**
+  *Date* : 19/09 de 15h30 à 17h00
+  *Lieu* : Place Jeanne-d'Arc, 3750","Atelier le 06/10 à Chinon : préparation et inscription à l'évènement pour l'emploi ""Markethon Edition 2026"", qui se déroulera le 08/10 . ; OBSERVATOIRE DU CHINONAIS ; Sur les pas de Rabelais ; Entre Histoire et histoires ; Visite libre de la forteresse royale de Chinon ; Les secrets de l’orgue ; CARRIERES SOUTERRAINES DE CHINON – DITES « CAVES VASLIN » ; Initiation à la pratique de la boule de Fort ; SUR LES PAS DE JEANNE D’ARC ; EGLISE NOTRE-DAME DE L’EPINE A PARILLY",2.0,1.0,Réponse pertinente pour Chinon ; événements retrouvés dans les sources ; réponse tronquée.
+T03,Géographie,Quels événements sont proposés à Amboise ?,Devenez Assistant(e) de vie aux familles,77629062.0,Retrouver un événement situé à Amboise et restituer son titre.,"Voici les événements disponibles à **Amboise** :
+
+1. **Visite guidée : l'Art Nouveau à Amboise**
+   *Date* : 18 octobre 2026, 15h00
+   *Lieu* : Placette Saint-Florentin
+
+2. **Visite libre du Musée d'Art et d'Histoire d'Amboise**
+   *Date* : 19 septembre 2026, de 12h00 à 16h00
+   *Lieu* : Rue François 1er
+
+3. **Spectacle familial ""Cochons frères construction""**
+   *Date* : 18 octobre 2026, 14h30
+   *Lieu* : 1 avenue des martyrs de la résistance
+
+4. **Visite guidée : la piscine de l'Île d'Or à Amboise**
+   *Date* : 18 octobre 2026, 9h00
+   *Lieu* : allée de la chapelle Saint-Jean
+
+5. **Randonnée urbaine guidée : le patrimoine industriel d'Amboise**
+   *Date* : 17 octobre 2026, 7h00
+   *Lieu* : Mail Saint-Thomas
+
+6. **Mémoires architecturales au cimetière d'Amboise** (deux","Mémoires architecturales au cimetière d'Amboise ; Mémoires architecturales au cimetière d'Amboise ; Spectacle familial ""Cochons frères construction"" ; Visite guidée : l'Art Nouveau à Amboise ; Atelier de préparation Markethon Amboise ; Focus historiques (30 min) ; Exposition « Mémoires d’Amboise : 1939-1945 » ; Visite guidée : la piscine de l'Île d'Or à Amboise ; Randonnée urbaine guidée : le patrimoine industriel d'Amboise ; Visite libre du Musée d'Art et d'Histoire d'Amboise",2.0,1.0,Réponse pertinente pour Amboise ; une source concerne Chargé et non Amboise ; réponse tronquée.
+T04,Géographie,Quels événements sont proposés à Joué-lès-Tours ?,Visite des coulisses de l'Espace Malraux ; Parcours du Patrimoine Jocondien - Joué Centre ; Atelier senior 360 ; MARKETHON : visitez des entreprises,79032802 ; 19733723 ; 80704650 ; 51837423,Retrouver un événement situé à Joué-lès-Tours et restituer son titre.,"Voici les événements à **Joué-lès-Tours** :
+
+1. **Visite des coulisses de l'Espace Malraux**
+   - *Date* : 20 juin 2026 (à confirmer, date initiale indiquée incorrecte dans le contexte)
+   - *Heure* : 07h–15h
+   - *Lieu* : Grange des Bretonnières, 37300 Joué-lès-Tours
+
+2. **Parcours du Patrimoine Jocondien – Joué Centre**
+   - *Date* : 20 juin 2026
+   - *Heure* : 07h–10h
+   - *Lieu* : Place François-Mitterrand, 37300 Joué-lès-Tours
+
+3. **Atelier senior 360** *(réservé aux demandeurs d’emploi)*
+   - *Date* : 28 septembre 2026
+   - *Heure* : 12h–14h
+   - *Lieu* : 37300 Joué-lès-Tours
+
+4. **Markethon : visitez des entreprises**
+   - *Date* : 8 octobre 2026
+   - *Heure* : 07h–15h
+   - *Lieu* : 373","Visite des coulisses de l'Espace Malraux ; Parcours du Patrimoine Jocondien - Joué Centre ; Atelier senior 360 / Réservé aux demandeurs d'emploi de l'agence de Joué-lès-Tours ; Cocotte-défi : huit défis à réaliser pendant votre visite libre ; Réalité virtuelle spéciale patrimoine ; Préparation avant le MARKETHON de l'EMPLOI (du 08.10) à TOURS CENTRE ; Seule en scène avec Mantine à la Grange tourangelle, 3 juillet ; MARKETHON : visitez des entreprises ; Découverte de l'oratoire ; Le Destin",2.0,1.0,Titres et UID vérifiés dans events_clean.csv. L'ancien titre concernant Sorigny était mal associé à Joué-lès-Tours. Erreur de date : le chatbot annonce le 20 juin 2026 alors que les sources indiquent le 20 septembre 2026.
+T05,Géographie,Quels événements sont proposés à Loches ?,Visite libre de l'église et de la galerie Saint-Antoine,52042025.0,Retrouver un événement situé à Loches et restituer son titre.,"Voici les événements disponibles à **Loches** (Indre-et-Loire) :
+
+1. **Visite libre du parcours permanent de la Cité royale de Loches**
+   *Date* : 19 septembre 2026, de **7h30 à 16h00**
+   *Lieu* : 5 place Charles-VII, 37600 Loches
+
+2. **Entrée libre sur les deux monuments de la Cité royale de Loches**
+   *Date* : 19 septembre 2026, de **7h30 à 16h00**
+   *Lieu* : 5 place Charles-VII, 37600 Loches
+
+3. **Visite guidée du Chalet de Gonzague Saint Bris**
+   *Date* : 19 septembre 2026, de **7h00 à 10h30**
+   *Lieu* : 21 Allée Valérie-Schneider, Chanceaux-près-Loches
+
+4. **Présentation des deux monuments de la Cité royale de Loches**
+   *Date* : 19 septembre 2026, **9h00–9h30**
+   *Lieu* : 5 place Charles-VII, 37600 Loches
+
+5. **Réalisation d’une fresque","Visite libre du parcours permanent de la Cité royale de Loches ; Entrée libre sur les deux monuments de la Cité royale de Loches. ; Visite guidée du Chalet de Gonzague Saint Bris ; Présentation des deux monuments de la Cité royale de Loches ; Réalisation d’une fresque par l’Atelier d’Agnès ; Visite libre de la collégiale Saint-Ours ; Répétition publique de l'Harmonie de Loches ; Venez rencontrer BMH Loches, une entreprise qui recrute ; 60 ans du Caméra Photo Club du Lochois ; Visite guidée du fonds ancien",1.0,1.0,Plusieurs événements correspondent à Loches. Le Chalet de Gonzague Saint Bris se situe à Chanceaux-près-Loches et non à Loches. La réponse est tronquée.
+T06,Géographie,Quels événements sont proposés à Château-Renault ?,Exposition galerie André Bauchant,89892559.0,Retrouver un événement situé à Château-Renault et restituer son titre.,"Voici les événements disponibles à **Château-Renault** :
+
+1. **Randonnée urbaine guidée**
+   - *Titre* : 50 ans de réhabilitation du patrimoine industriel
+   - *Date* : 17 octobre 2026
+   - *Heure* : 08:00–09:30
+   - *Lieu* : Rue de la République
+
+2. **Exposition**
+   - *Titre* : Merveilles du patrimoine en Val-de-Loire – Aquarelles de Jean-Michel Roux
+   - *Date* : 19 septembre 2026
+   - *Heure* : 08:00–16:00
+   - *Lieu* : Rue de l'Abreuvoir
+
+3. **Visite guidée**
+   - *Titre* : Ancien atelier de serrurerie Mercier
+   - *Date* : 19 septembre 2026
+   - *Heure* : 12:30–13:30
+   - *Lieu* : Impasse des Deux-Empereurs
+
+4. **Exposition**
+   - *Titre* : Galerie André Bauchant
+   - *Date* : 19 septembre 2026
+   - *Heure* : 06:00–20:00",Randonnée urbaine guidée : 50 ans de réhabilitation du patrimoine industriel à Château-Renault ; Merveilles du patrimoine en Val-de-Loire. Aquarelles de Jean-Michel Roux ; Visite guidée de l'ancien atelier de serrurerie Mercier ; Atelier de préparation Markethon Château-Renault ; Exposition galerie André Bauchant ; Visite guidée du château ; Parcours chanté par le trio UNIO ; Visite en famille : matières à construire ; Circuit d'interprétation du patrimoine ; Visite guidée de la Tour de l'Horloge,2.0,2.0,Réponse pertinente pour Château-Renault. Les quatre événements présentés sont cohérents avec les sources. L'événement attendu Exposition galerie André Bauchant est bien retrouvé.
+T07,Thématique,Quels événements concernent l'emploi ?,Votre avenir roule avec Chouteau Pneus : Tout savoir sur la formation recrutement le 18 septembre à Joué les Tours,30896436.0,Identifier un événement associé au thème : emploi.,"Mission Emploi : Trouvez l'emploi qui vous correspond (6 octobre 2026, Sainte-Maure-de-Touraine) ; Les clefs pour l'emploi (24 septembre 2026, Nazelles-Négron) ; Markethon : visitez des entreprises (8 octobre 2026, Joué-lès-Tours) ; Atelier Emploi Retraite (Chinon) ; Atelier de préparation et inscription au Markethon (Avoine) ; Venez rencontrer l'APAJH ! (Beaulieu-lès-Loches).",Mission Emploi : Trouvez l'emploi qui vous correspond ; Gagner en efficacité grâce à l'Intelligence Artificielle ; Vivre sa Nature - Apprendre le feu par friction ; Atelier le 05/10 à Avoine ; Les clefs pour l'emploi ; MARKETHON : visitez des entreprises ; Atelier Emploi Retraite ; Venez rencontrer l'APAJH !,2.0,2.0,"Réponse pertinente : les événements présentés concernent l'emploi. Les informations principales sont appuyées par les sources. Quelques documents récupérés sont hors sujet. Le titre de référence Chouteau Pneus n'apparaît pas, mais la question porte globalement sur l'emploi."
+T08,Thématique,Quels événements proposent du recrutement ?,recrutement Mécanicien Monteur et Electricien Industriel à SORIGNY,63387917.0,Identifier un événement associé au thème : recrutement.,"HUMANDO agence d'intérim IAE recrute (22 septembre 2026, Tours) ; Votre avenir roule avec Chouteau Pneus : Tout savoir sur la formation recrutement (18 septembre 2026, Joué-lès-Tours) ; Devenez Consultant(e) Immobilier avec FONCIA (14 octobre 2026, Tours) ; Formation et Recrutement sans CV d'employés d'étage en hôtellerie (14 octobre 2026, Tours).",réunion emploi-retraite ; Chasse au trésor : les petits explorateurs du patrimoine ; Venez rencontrer l'APAJH ! ; HUMANDO agence d'intérim IAE recrute ; Votre avenir roule avec Chouteau Pneus ; Devenez Consultant(e) Immobilier avec FONCIA ; ATELIER CARSAT ; Formation et Recrutement sans CV d'employés d'étage en hôtellerie ; ATELIER EMPLOI RETRAITE 2026,2.0,2.0,"Réponse pertinente : quatre événements liés au recrutement sont identifiés et appuyés par les sources. Quelques sources récupérées sont hors sujet. Le recrutement de mécaniciens et électriciens à Sorigny, prévu comme référence, n'apparaît pas dans la réponse."
+T09,Thématique,Quels événements concernent la formation ?,Venez découvrir la formation BP Forestier !,72731567.0,Identifier un événement associé au thème : formation.,"Défi Emploi avec INTERSPORT : formation financée et rémunérée en préparateur de commande (25 septembre 2026, Nazelles-Négron) ; Webinaire sur la construction d'un projet professionnel et de formation (17 septembre 2026, Joué-lès-Tours) ; Prépa Métiers du service et du bar (13 octobre et 17 novembre 2026, Amboise).",Défi Emploi avec INTERSPORT ; Webinaire : Construisez votre projet professionnel et de formation avec confiance ! ; Chasse au trésor : les petits explorateurs du patrimoine ; Devenez Technicien maintenance chaudières gaz sur le 37 ! ; Venez rencontrer l'APAJH ! ; Prépa Métiers du service et du bar ; Découverte des métiers du secteur de la Propreté ; Parcours chanté par le trio UNIO,2.0,2.0,Réponse pertinente : les trois propositions concernent la formation ou l'orientation professionnelle et sont appuyées par les sources. Quelques sources récupérées sont hors sujet. Le titre de référence BP Forestier n'apparaît pas dans la réponse.
+T10,Thématique,Cite un concert musical proposé dans les événements.,"Concert jazz-pop avec Delphine Maillard à la Grange tourangelle, 5 juin",62152172.0,Identifier un v?ritable concert et restituer son titre.,"Concert de Gospel à Tours, le 19 septembre 2026 à 13h, 15 Quai de Portillon.",Concert de l'Union musicale de Sainte-Maure de Touraine au Château du Rivau ; Concert de l'Ensemble Choral'Aria ; Apéritif-concert de l'Ecole de Musique ; Conférence sur l'argot de la musique ; Concert de Gospel ; Visite de l'orgue suivie d'un petit concert ; Récital de lieder ; Concert à l'église ; Découverte du Temps Machine ; L'ensemble ElaNave va en concert.,2.0,2.0,"Réponse pertinente : un véritable concert est identifié. Le titre Concert de Gospel et la ville Tours sont confirmés par les sources. L'événement diffère du titre de référence, mais la question demande un concert quelconque."
+T11,Thématique,Quels événements permettent de découvrir le patrimoine ?,Découverte de l'Atelier Calder,54126240.0,Identifier un événement associé au thème : patrimoine.,Visites guidées Patrimoine à Tours ; Exposition de photos Patrimoine en péril à Langeais ; Réalité virtuelle spéciale patrimoine à Tours ; Chasse au trésor : les petits explorateurs du patrimoine à Chisseaux ; Parcours du Patrimoine Jocondien - Morier.,Pôle de rencontres et d'animations restaurer le patrimoine ; Chasse au trésor : les petits explorateurs du patrimoine ; Initiation aux danses Renaissance ; Villandry célèbre le patrimoine ; Réalité virtuelle spéciale patrimoine ; Visites guidées Patrimoine ; Atelier Markethon à Cheillé ; Exposition de photos patrimoine en péril ; Parcours-jeux Face aux ennemis du patrimoine ; Parcours du Patrimoine Jocondien - Morier.,2.0,1.0,"Plusieurs événements liés au patrimoine sont identifiés et confirmés par les sources. La dernière proposition est incomplète dans la réponse, notamment pour la localisation."
+T12,Thématique,Quelles expositions sont proposées ?,"Sur les pas de Jeanne d'Arc, Exposition d'aquarelles et dessins de JEAN CHEN",9525624.0,Identifier un événement associé au thème : exposition.,Visite libre des expositions du moment au Centre de création contemporaine Olivier Debré à Tours ; Visites guidées des expositions du moment à Tours ; Exposition de vêtements religieux à Neuvy-le-Roi ; Visite libre de la Maison Max Ernst à Huismes ; Visites commentées des ateliers et expositions de Max Ernst à Huismes. Réponse tronquée.,Visite libre des expositions du moment ; Visites guidées - les expositions du moment ; Exposition de vêtements religieux ; Visite libre de la Maison Max Ernst ; Visites commentées des ateliers de Max Ernst ; Exposition/concours photos enfants ; Visite guidée de l'orgue historique ; Reconstitution historique ; Visite sensorielle et narrative des œuvres d'art contemporain ; Exposition Photographies.,2.0,1.0,"Les sources confirment plusieurs événements liés aux expositions. Cependant, certains titres sont confondus avec les lieux ou organisateurs et la réponse est tronquée."
+T13,Thématique,Quelles visites peut-on découvrir ?,En route vers les métiers du transport urbain lors de la visite du technicentre Keolis Tours,17470635.0,Identifier un événement associé au thème : visite.,"Visite libre en troglo à la Cave de Vouvray ; Visite libre du cloître de la Psalette ; Découverte de l'Hôtel du Grand Commandement ; Visite guidée du Printemps Tours ; À la découverte du CESR ; Visite libre du château, jardins et parcs ; Visite guidée de la Tour de l'Horloge.","Visite libre en troglo à la Cave de Vouvray ; Visite libre du cloître de la Psalette ; Découverte de l'Hôtel du Grand Commandement ; Visite des coulisses de l'Espace Malraux ; Lectures de contes spéciales Patrimoine ; MARKETHON : visitez des entreprises ; Visite guidée du Printemps Tours ; À la découverte du CESR ; Visite libre du château, jardins et parcs ; Visite guidée de la Tour de l'Horloge.",2.0,2.0,"Plusieurs véritables visites sont proposées. Les titres, villes et dates des événements présentés sont confirmés par les sources."
+T14,Thématique,Quels événements sont adaptés aux jeunes enfants ?,Trois petits pas,98789245.0,Identifier un événement associé au thème : famille.,"Aucun événement ne semble directement adapté aux jeunes enfants. Le chatbot propose Venez rencontrer l'APAJH ! à Beaulieu-lès-Loches, mais cet événement concerne la découverte d'un métier.",Devenez Assistant(e) de vie aux familles ; HUMANDO agence d'intérim IAE recrute ; Devenez Technicien maintenance chaudières gaz sur le 37! ; Services de la BGE Touraine ; Les clefs pour l'emploi ; Venez rencontrer l'APAJH !,0.0,1.0,Le chatbot ne répond pas à la demande d'événements adaptés aux jeunes enfants. Il propose à la place une rencontre professionnelle sans rapport direct. L'événement de référence Trois petits pas n'est pas récupéré.
+T15,Date,Quels événements sont prévus en décembre 2026 ?,"Exposition - Stanley Greene, le parti de la révolte",12832092.0,Retrouver un événement daté de décembre 2026 et donner sa date.,Aucun événement n'est prévu en décembre 2026 dans le contexte fourni.,Atelier le 05/10 à Avoine ; ATELIER EMPLOI RETRAITE 2026 ; Atelier découverte de la photographie de 1826 à 2026 ; Venez rencontrer CAP MONETIQUE ; Atelier le 06/10 à Cheillé ; Zoom sur les métiers du numérique ; Atelier le 02/10 à Bourgueil ; Venez rencontrer l'APAJH ! ; Conférence L'art d'être parents chez les animaux.,0.0,1.0,"L'événement attendu Exposition - Stanley Greene, le parti de la révolte est bien présent dans events_clean.csv, à Tours le 4 décembre 2026 de 13h à 17h, UID 12832092. Il n'est pas récupéré par le système RAG, qui affirme à tort qu'aucun événement n'est prévu en décembre."
+T16,Date,Quels événements sont prévus en janvier 2027 ?,Le grand bal des animaux,2358242.0,Retrouver un événement daté de janvier 2027 et donner sa date.,Aucun événement n'est mentionné pour janvier 2027 dans le contexte fourni. Le chatbot affirme que les données disponibles concernent uniquement 2026.,Atelier le 05/10 à Avoine ; Atelier le 06/10 à Cheillé ; Atelier créatif Le carnet de l'invisible ; HUMANDO agence d'intérim IAE recrute ; Vivre sa Nature - Apprendre le feu par friction ; Conférence L'art d'être parents chez les animaux ; Atelier Peut-on penser comme un animal ? ; Visite libre de l'église Notre-Dame-des-Essards ; Devenez Assistant(e) de vie aux familles ; Initiation aux danses Renaissance,0.0,1.0,L'événement attendu Le grand bal des animaux n'est pas retrouvé. Le chatbot affirme qu'aucun événement de janvier 2027 n'est disponible alors que l'événement figure dans le jeu de référence. Les sources récupérées concernent d'autres périodes.
+T17,Date,Quels événements sont prévus en juillet 2027 ?,"Seule en scène avec Mantine à la Grange tourangelle, 3 juillet",58238330.0,Retrouver un événement daté de juillet 2027 et donner sa date.,Aucun événement n'est prévu en juillet 2027 dans le contexte fourni. Le chatbot affirme que les données disponibles concernent uniquement 2026.,Atelier le 05/10 à Avoine ; Atelier le 06/10 à Cheillé ; Initiation aux danses Renaissance ; HUMANDO agence d'intérim IAE recrute ; Venez rencontrer CAP MONETIQUE dans le cadre de la semaine du Numérique ; Zoom sur les métiers du numérique ; Atelier créatif Le carnet de l'invisible ; Venez rencontrer l'APAJH ! ; Cocotte-défi : huit défis à réaliser pendant votre visite libre ; Atelier découverte de la photographie de 1826 à 2026,0.0,1.0,"L'événement attendu Seule en scène avec Mantine à la Grange tourangelle, 3 juillet n'est pas retrouvé. Le chatbot affirme à tort qu'aucun événement n'est prévu en juillet 2027. Les sources récupérées ne correspondent pas à la période demandée."
+T18,Recherche combinée,Quels événements musicaux sont organisés à Joué-lès-Tours ?,"Concert jazz-pop avec Delphine Maillard à la Grange tourangelle, 5 juin",86137729.0,Trouver un événement musical dans la ville demandée.,Concert jazz-pop avec Delphine Maillard. Date : 5 juin 2027. Ville : Joué-lès-Tours.,"R?cital de lieder avec Marc dans une grange ? Jou?-l?s-Tours ; Concert jazz-pop avec Delphine Maillard ? la Grange tourangelle, 5 juin ; Concert pop avec Julie Castaing dans une grange ? Jou?-l?s-Tours ; D?couverte de la Sc?ne de Musiques Actuelles Le Temps Machine",2.0,2.0,"Réponse correcte. L'événement cité existe dans les sources, la ville et la date sont exactes. Plusieurs réponses étaient possibles."
+T19,Recherche combinée,Quels événements liés à l'emploi sont organisés à Chinon ?,Atelier Emploi Retraite,36826885.0,Trouver un événement lié à l'emploi à Chinon.,Voici trois événements liés à l'emploi ou à la découverte professionnelle à Chinon : Atelier préparation Markethon 2026 (6 octobre 2026) ; Découverte des Métiers de l'Autonomie (17 septembre 2026) ; Zoom sur les métiers du numérique (22 septembre 2026).,Atelier le 06/10 à Chinon : préparation et inscription à l'événement pour l'emploi Markethon Edition 2026 ; Entre Histoire et histoires ; Les secrets de l'orgue ; Découverte des Métiers de l'Autonomie : Un Parcours Immersif ; Carrières souterraines de Chinon - dites Caves Vaslin ; Observatoire du Chinonais ; Sur les pas de Rabelais ; Zoom sur les métiers du numérique ; Visite libre de la forteresse royale de Chinon ; Une visite en immersion,1.0,2.0,"La réponse propose des événements liés à l'emploi ou à la découverte professionnelle à Chinon, et les informations présentées sont étayées par les sources. Cependant, l'événement attendu Atelier Emploi Retraite n'est pas retrouvé. La recherche combinée est partiellement satisfaisante."
+T20,Absence de résultat,Y a-t-il une compétition de fusées intergalactiques à Tours ?,,,Le chatbot doit indiquer qu'aucun événement correspondant n'est présent dans les données et ne rien inventer.,"Non, dans le contexte fourni, il n'existe aucun événement lié à une compétition de fusées intergalactiques à Tours.",En route vers les métiers du transport urbain lors de la visite du technicentre Keolis Tours; Conférence; Préparation avant le MARKETHON de l'EMPLOI; Connaissez-vous le management de transition ?; Webinaire : Construisez votre projet professionnel et de formation avec confiance!; Prépa Métiers du tourisme et de l'hébergement; Formation et Recrutement sans CV d'employés d'étage en hôtellerie; Petits-fils Tours Nord recrute des Assistante de vie; Visite guidée de l'ancienne imprimerie MAME,2.0,2.0,Réponse correcte : le chatbot n'invente aucun événement et indique qu'aucun résultat correspondant n'a été trouvé. Les documents récupérés sont sans rapport avec la question.
